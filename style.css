@@ -1,0 +1,63 @@
+#Calculadora {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(24, 24, 24);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+#display {
+    width: 100rem;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: rgb(31, 30, 30);
+    color: white;
+}
+button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(56, 54, 54);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 25px;
+}
+
+.operador {
+    background-color: rgb(202, 145, 22);
+}
+
+body {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button:hover {
+    background-color: hsl(0, 1%, 30%);
+}
+
+.operador:hover {
+    background-color: hsl(39, 94%, 52%);
+}
+
+button:active {
+    background-color: hsl(0, 1%, 40%);
+}
+
+.operador:active {
+    background-color: hsl(39, 100%, 62%)
+}
