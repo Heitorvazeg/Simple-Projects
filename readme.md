@@ -1,1 +1,1 @@
-Calculadora simples.
+Projetos simples com HTML, CSS e Javascript.
